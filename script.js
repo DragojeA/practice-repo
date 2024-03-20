@@ -3,7 +3,7 @@ var list = document.getElementById("list");
 arr.forEach((element) => {
   if (element % 2 === 0) {
     var listItem = document.createElement("li");
-    listItem.innerText = element;
+    listItem.innerText = element.toString();
     list.appendChild(listItem);
   }
 });
